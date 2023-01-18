@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>撿到寶_UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar sideBySide">
+        <a onclick="location.href='index.html';"><img id="logo" src="img/logo.png" alt=""></a>
+        <ul>
+            <li><a onclick="location.href='index.html';">首頁</a></li>
+            <li><a onclick="location.href='service.html';">服務介紹</a></li>
+            <li><a onclick="location.href='works.html';">設計作品</a></li>
+            <li><a onclick="location.href='adopt.html';">領養專區</a></li>
+        </ul>
+        <div class="btn yellow" id="navbarBtn" style="cursor: default;">毛孩似顏繪</div>
+    </div>
+
+    <div class="banner"></div>
+    <div>
+        <form class="fs16px">
+            <p style="margin-top: 0;">填寫訂購資訊</p>
+            <table style="text-align:left; margin:69px auto 0; width:100%; font-weight:default;">
+                <tr>
+                    <td>名字<br><input type="text" name="" id=""></td>
+                    <td>姓氏<br><input type="text" name="" id=""></td>
+                </tr><tr>
+                    <td colspan="2">手機號碼<br><input type="tel" name="" id=""></td>
+                </tr><tr>
+                    <td colspan="2">電子郵件<br><input type="email" name="" id=""></td>
+                </tr><tr>
+                    <td style="padding-bottom: 0;">
+                        收件地址<br>
+                        <select>
+                            <option value="">請選擇城市</option>
+                        </select>
+                    </td><td style="padding-bottom: 0;">
+                        <br>
+                        <select>
+                            <option value="">請選擇區域</option>
+                        </select>
+                    </td>
+                </tr><tr>
+                    <td colspan="2" style="padding-top: 0;"><input type="text" name="" id="" placeholder="請輸入詳細地址"></td>
+                </tr><tr>
+                    <td colspan="2">
+                        選擇設計師風格<br>
+                        <select>
+                            <option value="">Meili</option>
+                            <option value="">Zoe</option>
+                            <option value="">Michael</option>
+                            <option value="">Birdy</option>
+                        </select>
+                    </td>
+                </tr><tr>
+                    <td colspan="2">
+                        付款方式<br>
+                        <select>
+                            <option value="">貨到付款</option>
+                        </select>
+                    </td>
+                </tr><tr>
+                    <td colspan="2">
+                        加購服務<br>
+                        <input type="checkbox" name="" id="">送禮用包裝+100
+                        <input type="checkbox" name="" id="">無框畫+250
+                    </td>
+                </tr><tr>
+                    <td colspan="2">備註說明
+                        <textarea></textarea>
+                    </td>
+                </tr>
+            </table>
+            <p id="total">總金額 NT$ 300</p>
+            <submit class="btn yellow fs24px" id="submit" onclick="location.href='#';">送出訂購資訊</submit>
+        </form>
+    </div>
+
+    <div class="link sideBySide">
+        <div class="sideBySide">
+            <img src="img/link01.png" alt="">
+            <div>
+                <p class="title">加入奴才團隊</p>
+                <p class="content">我也會畫畫，希望能盡一份心力！</p>
+                <div class="btn" style="cursor:default;">聯絡我們</div>
+            </div>
+        </div>
+        <div class="sideBySide">
+            <img src="img/link02.png" alt="">
+            <div>
+                <p class="title">加入奴才團隊</p>
+                <p class="content">我也會畫畫，希望能盡一份心力！</p>
+                <div class="btn" onclick="location.href='adopt.html';">領養專區</div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright sideBySide">
+        Copyright © 2021 撿到寶.All rights reserved.
+    </div>
+</body>
+</html>
